@@ -1,5 +1,5 @@
 import React from 'react'
-import { calculateCredit, myRating, getCredits, buildingAreaMock, professionalMock, companyMock } from '../data/ProjectA'
+import { calculateCredit, myRating, getCredits, buildingAreaMock, professionalMock, companyMock, finalEmissionsMock } from '../data/ProjectA'
 
 export default function Dashboard() {
 
@@ -92,33 +92,33 @@ export default function Dashboard() {
             <h1 class="text-xl font-bold text-gray-800 mt-4">Today’s Status</h1>
             <div class="flex justify-between space-x-4 text-center mt-6">
               <div class="bg-indigo-50 rounded-xl p-10">
-                <h3>{buildingAreaMock}</h3>
+                <h3 class="text-xl font-bold text-green-800">{buildingAreaMock}</h3>
                 <span>Total Building Area</span>
               </div>
               <div class="bg-indigo-50 rounded-xl p-10">
-                <h3>99</h3>
-                <span>Registrations</span>
+                <h3 class="text-xl font-bold text-green-800">{finalEmissionsMock.energyConsumption}</h3>
+                <span>Final Emissions Number</span>
               </div>
               <div class="bg-indigo-50 rounded-xl p-10">
-                <h3>30</h3>
+                <h3 class="text-xl font-bold text-green-800">30</h3>
                 <span>Totals Session</span>
               </div>
             </div>
           </div>
-          <div class="justify-between rounded-xl mt-4 p-4 bg-white shadow-lg">
-            <h1 class="text-xl font-bold text-gray-800 mt-4">Today’s Status</h1>
+          <div class="justify-between rounded-xl mt-4 p-4 bg-white shadow-lg ">
+            <h1 class="text-xl font-bold text-gray-800 mt-4">Energy Status</h1>
             <div class="flex justify-between space-x-4 text-center mt-6">
               <div class="bg-indigo-50 rounded-xl p-10">
-                <h3>8.7K</h3>
-                <span>Total Present</span>
+                <h3 class="text-xl font-bold text-green-800">{finalEmissionsMock.waterRecycling}</h3>
+                <span>Watter Recycling</span>
               </div>
               <div class="bg-indigo-50 rounded-xl p-10">
-                <h3>99</h3>
-                <span>Registrations</span>
+                <h3 class="text-xl font-bold text-green-800">{finalEmissionsMock.energyConsumption}</h3>
+                <span>Energy Consumption</span>
               </div>
               <div class="bg-indigo-50 rounded-xl p-10">
-                <h3>30</h3>
-                <span>Totals Session</span>
+                <h3 class="text-xl font-bold text-green-800">{finalEmissionsMock.renewablEnergyProduction}</h3>
+                <span>Renewable Energy Production</span>
               </div>
             </div>
           </div>
