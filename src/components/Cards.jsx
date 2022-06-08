@@ -9,15 +9,15 @@ export default function Cards() {
                 <div class="row-span-2 flex flex-col rounded-md border border-slate-200 bg-white">
                     <div class="h-1/2 flex-1"><img src={cardImage1} class="w-full object-cover object-right-top" alt="omnichannel" /></div>
                     <div class="p-10">
-                        <h3 class="text-xl font-medium text-gray-700">Omnichannel support center</h3>
-                        <p class="mt-2 text-slate-500">Chatwoot connects with popular customer communication channels like Email, Website live-chat, Facebook, Twitter, WhatsApp, Instagram, Line, etc., and helps you deliver a consistent customer experience across channels.</p>
+                        <h3 class="text-xl font-medium text-gray-700">European Green Deal</h3>
+                        <p class="mt-2 text-slate-500">Whiting UE, roughly 75% of the building stock is energy inefficient and over 85% of them will still be standing in 2050, when Europe must be climate neutral. This objective is at the heart of the  European Green Deal  and in line with the EU’s commitment to global climate action under the  Paris Agreement.</p>
                         
                     </div>
                 </div>
                 <div class="flex rounded-md border border-slate-200 bg-white">
                     <div class="flex-1 p-10">
-                        <h3 class="text-xl font-medium text-gray-700">A live-chat that fits your brand</h3>
-                        <p class="mt-2 text-slate-500">Connect with your website visitors, communicate with them in realtime and give them quality support with a live-chat widget that fits your brand.</p>
+                        <h3 class="text-xl font-medium text-gray-700">Our cities, our buildings</h3>
+                        <p class="mt-2 text-slate-500">Buildings currently account for 40% of energy consumed in the EU and 36% of energy-related greenhouse gas emissions. But nowadays less than 1% of the national building stock is renovated each year due to the cost, which is often the major hurdle to renovation.</p>
                         
                     </div>
 
@@ -29,8 +29,8 @@ export default function Cards() {
                 </div>
                 <div class="flex rounded-md border border-slate-200 bg-white">
                     <div class="flex-1 p-10">
-                        <h3 class="text-xl font-medium text-gray-700">Respond faster, with automated chatbots</h3>
-                        <p class="mt-2 text-slate-500">Integrate with chatbots using Rasa or Dialogflow to automate conversations. Qualify using chatbots and seamlessly handoff to human agents.</p>
+                        <h3 class="text-xl font-medium text-gray-700">Our commitment</h3>
+                        <p class="mt-2 text-slate-500">Energy efficient renovations, as well as companies and professionals, can be certified by blockchain. Projects can be helped economically from their initial phase, focused on the deduction of emissions as earlier as possible in the construction process.</p>
                         
                     </div>
 

@@ -11,7 +11,7 @@ export default function Footer() {
         <footer class="text-gray-600 body-font">
             <div class="bg-gray-100">
                 <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                    <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 Decarbonizing Cities —
+                    <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 Stunning Green —
                         <a href="https://twitter.com/stunninggreen" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@Stunning Green</a>
                     </p>
                     <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
