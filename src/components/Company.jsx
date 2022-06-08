@@ -11,8 +11,8 @@ export default function Company() {
         </div>
         <div class="md:7/12 lg:w-6/12">
           <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">Why We Are Doing This?</h2>
-          <p class="mt-6 text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!</p>
-          <p class="mt-4 text-gray-600"> Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
+          <p class="mt-6 text-gray-600">We need to improve the energy efficiency of our existing buildings but we face two main problems: bureaucratic dificulties to access to EU financial support mechanisms and funds delivery deadlines.</p>
+          <p class="mt-4 text-gray-600"> Stunning Green aims to simplifies information retrieval, deliver initial liquidity to projects according to the objectives achieved and validate the professionalism of the agents involved by connecting BIM programmes and blockchain.</p>
         </div>
       </div>
   </div>
