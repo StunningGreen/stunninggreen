@@ -1,4 +1,5 @@
 import React from 'react'
+import heroImage from '../utils/Images'
 
 export default function Hero() {
     return (
@@ -9,18 +10,9 @@ export default function Hero() {
                     <svg className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
                         <polygon points="50,0 100,0 50,100 0,100" />
                     </svg>
-
                     <div>
                         <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
                             <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
-                                <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-                                    <div className="flex items-center justify-between w-full md:w-auto">
-                                        <a href="#">
-                                            <span className="sr-only">Workflow</span>
-                                            <img alt="Workflow" clasNames="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" />
-                                        </a>      
-                                    </div>
-                                </div>
                             </nav>
                         </div>
                     </div>
@@ -42,7 +34,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-                <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://images.unsplash.com/photo-1521708266372-b3547456cc2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=838&q=80" alt="" />
+                <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src={heroImage} alt="" />
             </div>
         </div>
 
