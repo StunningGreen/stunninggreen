@@ -1,9 +1,15 @@
+# Basic Sample Hardhat Project
 
-# Stunning Green
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-1- Check your node version
+Try running some of the following tasks:
 
-2- Change your version to one of this -> nvm use 16 or 18
-
-3- Use 'yarn dev' to run de project# stunning-green
-
+```shell
+npx hardhat accounts
+npx hardhat compile
+npx hardhat clean
+npx hardhat test
+npx hardhat node
+node scripts/sample-script.js
+npx hardhat help
+```
