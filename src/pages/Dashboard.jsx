@@ -6,7 +6,7 @@ export default function Dashboard() {
   return (
 
     <div class="flex bg-gray-100 rounded-xl m-3 shadow-xl mb-20">
-      <div class="flex px-16 space-y-16 overflow-hidden m-3 pb-4 flex-col items-center justify-center rounded-tl-xl rounded-bl-xl bg-blue-800 shadow-lg">
+      <div class="flex px-16 space-y-16 overflow-hidden m-3 pb-4 flex-col items-center justify-center rounded-tl-xl rounded-bl-xl bg-green-700 shadow-lg">
         <div class="flex items-center justify-center p-4 shadow-lg">
           <h1 class="text-white font-bold mr-2 cursor-pointer">My Projects</h1>
         </div>

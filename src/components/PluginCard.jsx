@@ -51,7 +51,7 @@ export default function PluginCard() {
                                     </g>
                                 </svg>
                                 <span class="mx-2">
-                                    Go to AutoDesk App Store
+                                    Go to AutoDesk Store
                                 </span>
                             </a>
                         </div>
