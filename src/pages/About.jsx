@@ -19,7 +19,7 @@ function About() {
               </div>
               <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
                 <p class="text-xl text-white font-bold">Paulo Almeida</p>
-                <p class="text-base text-gray-400 font-normal">Software Engineer</p>
+                <p class="text-base text-gray-400 font-normal">Software Developer</p>
                 <p class="text-base leading-relaxed text-gray-500 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div class="flex justify-start space-x-2">
                   <a href="#" class="text-gray-500 hover:text-gray-600">
@@ -51,7 +51,7 @@ function About() {
               </div>
               <div class="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
                 <p class="text-xl text-white font-bold">Teresa Rodriguez</p>
-                <p class="text-base text-gray-400 font-normal">Architect / Blockchain Developer </p>
+                <p class="text-base text-gray-400 font-normal">Architect / Software Developer </p>
                 <p class="text-base leading-relaxed text-gray-500 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div class="flex justify-start space-x-2">
                   <a href="#" class="text-gray-500 hover:text-gray-600">

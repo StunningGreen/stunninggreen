@@ -8,13 +8,13 @@ export default function Dashboard() {
   return (
 
     <div class="flex bg-gray-100 rounded-xl m-3 shadow-xl mb-20">
-      <div class="flex px-16 space-y-16 overflow-hidden m-3 pb-4 flex-col items-center justify-center rounded-tl-xl rounded-bl-xl bg-green-700 shadow-lg">
+      <div class="flex px-16 space-y-16 overflow-hidden m-3 pb-4 flex-col items-center justify-center rounded-md  bg-green-700 shadow-lg">
         <div class="flex items-center justify-center p-4 shadow-lg mt-2">
           <h1 class="text-white font-bold mr-2 cursor-pointer">Projects</h1>
         </div>
         <ul>
           <li class="flex space-x-2 mt-4 px-6 py-4 text-white hover:bg-white hover:text-blue-800 font-bold hover:rounded-br-3xl transition duration-100 cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={dashboardIcon} /></svg
             ><a href="">Project 1</a>
           </li>
