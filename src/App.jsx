@@ -8,6 +8,11 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Dashboard from './pages/Dashboard';
 import Price from './pages/Price';
+import Web3 from "web3";
+import { newKitFromWeb3 } from "@celo/contractkit";
+
+const web3 = new Web3("https://alfajores-forno.celo-testnet.org")
+const kit = newKitFromWeb3(web3);
 
 
 function App() {

@@ -1,9 +1,13 @@
+# Sample Hardhat Project
 
-# Stunning Green
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-1- Check your node version
+Try running some of the following tasks:
 
-2- Change your version to one of this -> nvm use 16 or 18
-
-3- Use 'yarn dev' to run de project# stunning-green
-
+```shell
+npx hardhat help
+npx hardhat test
+GAS_REPORT=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
+```
